@@ -17,44 +17,44 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/user")
 public class UserController {
 
-	private static final Logger log = LoggerFactory.getLogger(UserController.class);
+    private static final Logger log = LoggerFactory.getLogger(UserController.class);
 
-	@Autowired
-	private UserRepository userRepository;
-	
-	@Autowired
-	private CartRepository cartRepository;
+    @Autowired
+    private UserRepository userRepository;
 
-	@Autowired
-	private BCryptPasswordEncoder bCryptPasswordEncoder;
+    @Autowired
+    private CartRepository cartRepository;
 
-	@GetMapping("/id/{id}")
-	public ResponseEntity<User> findById(@PathVariable Long id) {
-		return ResponseEntity.of(userRepository.findById(id));
-	}
-	
-	@GetMapping("/{username}")
-	public ResponseEntity<User> findByUserName(@PathVariable String username) {
-		User user = userRepository.findByUsername(username);
-		return user == null ? ResponseEntity.notFound().build() : ResponseEntity.ok(user);
-	}
-	
-	@PostMapping("/create")
-	public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) {
-		User user = new User();
-		user.setUsername(createUserRequest.getUsername());
-		Cart cart = new Cart();
-		cartRepository.save(cart);
-		user.setCart(cart);
-		String password = bCryptPasswordEncoder.encode(createUserRequest.getPassword());
-		if (createUserRequest.getPassword().length() < 7 ||
-				!createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword()) ||
-		!bCryptPasswordEncoder.matches(createUserRequest.getConfirmPassword(), password)) {
-				return ResponseEntity.badRequest().build();
-		}
-		user.setPassword(password);
-		userRepository.save(user);
-		return new ResponseEntity<>(user, HttpStatus.CREATED);
-	}
-	
+    @Autowired
+    private BCryptPasswordEncoder bCryptPasswordEncoder;
+
+    @GetMapping("/id/{id}")
+    public ResponseEntity<User> findById(@PathVariable Long id) {
+        return ResponseEntity.of(userRepository.findById(id));
+    }
+
+    @GetMapping("/{username}")
+    public ResponseEntity<User> findByUserName(@PathVariable String username) {
+        User user = userRepository.findByUsername(username);
+        return user == null ? ResponseEntity.notFound().build() : ResponseEntity.ok(user);
+    }
+
+    @PostMapping("/create")
+    public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) {
+        User user = new User();
+        user.setUsername(createUserRequest.getUsername());
+        Cart cart = new Cart();
+        cartRepository.save(cart);
+        user.setCart(cart);
+        String password = bCryptPasswordEncoder.encode(createUserRequest.getPassword());
+        if (createUserRequest.getPassword().length() < 7 ||
+                !createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword()) ||
+                !bCryptPasswordEncoder.matches(createUserRequest.getConfirmPassword(), password)) {
+            return ResponseEntity.badRequest().build();
+        }
+        user.setPassword(password);
+        userRepository.save(user);
+        return new ResponseEntity<>(user, HttpStatus.CREATED);
+    }
+
 }

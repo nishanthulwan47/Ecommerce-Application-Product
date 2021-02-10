@@ -18,7 +18,9 @@ import java.util.ArrayList;
 @Component
 public class JWTAuthenticationVerificationFilter extends BasicAuthenticationFilter {
 
-    public JWTAuthenticationVerificationFilter(AuthenticationManager authenticationManager) { super(authenticationManager);}
+    public JWTAuthenticationVerificationFilter(AuthenticationManager authenticationManager) {
+        super(authenticationManager);
+    }
 
     protected void doFilterInternal(HttpServletRequest req, HttpServletResponse res, FilterChain chain) throws
             IOException, ServletException {
@@ -33,7 +35,7 @@ public class JWTAuthenticationVerificationFilter extends BasicAuthenticationFilt
         UsernamePasswordAuthenticationToken authentication = getAuthentication(req);
 
         SecurityContextHolder.getContext().setAuthentication(authentication);
-        chain.doFilter(req ,res);
+        chain.doFilter(req, res);
     }
 
     private UsernamePasswordAuthenticationToken getAuthentication(HttpServletRequest req) {

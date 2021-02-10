@@ -1,4 +1,3 @@
-
 package com.example.demo.security;
 
 import com.auth0.jwt.JWT;
@@ -21,39 +20,39 @@ import java.util.Date;
 
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
-        private AuthenticationManager authenticationManager;
+    private final AuthenticationManager authenticationManager;
 
-        public JWTAuthenticationFilter(AuthenticationManager authenticationManager) {
-                this.authenticationManager = authenticationManager;
-        }
+    public JWTAuthenticationFilter(AuthenticationManager authenticationManager) {
+        this.authenticationManager = authenticationManager;
+    }
 
-        @Override
-        public Authentication attemptAuthentication(HttpServletRequest request,
-                                                    HttpServletResponse response) throws AuthenticationException {
-                try {
-                        User credentials = new ObjectMapper()
-                                .readValue(request.getInputStream(), User.class);
-                        return authenticationManager.authenticate(
-                                new UsernamePasswordAuthenticationToken(
-                                        credentials.getUsername(),
-                                        credentials.getPassword(),
-                                        new ArrayList<>()));
-                } catch (IOException e) {
-                        throw new RuntimeException(e);
-                }
+    @Override
+    public Authentication attemptAuthentication(HttpServletRequest request,
+                                                HttpServletResponse response) throws AuthenticationException {
+        try {
+            User credentials = new ObjectMapper()
+                    .readValue(request.getInputStream(), User.class);
+            return authenticationManager.authenticate(
+                    new UsernamePasswordAuthenticationToken(
+                            credentials.getUsername(),
+                            credentials.getPassword(),
+                            new ArrayList<>()));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
+    }
 
-        @Override
-        protected void successfulAuthentication(HttpServletRequest request,
-                                                HttpServletResponse response,
-                                                FilterChain filterChain,
-                                                Authentication authentication) throws IOException, ServletException {
-                String token = JWT.create()
-                        .withSubject(((org.springframework.security.core.userdetails.User) authentication.getPrincipal()).getUsername())
-                        .withExpiresAt(new Date(System.currentTimeMillis() + SecurityConstants.EXPIRATION_TIME))
-                        .sign(Algorithm.HMAC512(SecurityConstants.SECRET.getBytes()));
-                response.addHeader(SecurityConstants.HEADER_STRING, SecurityConstants.TOKEN_PREFIX + token);
-        }
+    @Override
+    protected void successfulAuthentication(HttpServletRequest request,
+                                            HttpServletResponse response,
+                                            FilterChain filterChain,
+                                            Authentication authentication) throws IOException, ServletException {
+        String token = JWT.create()
+                .withSubject(((org.springframework.security.core.userdetails.User) authentication.getPrincipal()).getUsername())
+                .withExpiresAt(new Date(System.currentTimeMillis() + SecurityConstants.EXPIRATION_TIME))
+                .sign(Algorithm.HMAC512(SecurityConstants.SECRET.getBytes()));
+        response.addHeader(SecurityConstants.HEADER_STRING, SecurityConstants.TOKEN_PREFIX + token);
+    }
 
 
 }
