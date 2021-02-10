@@ -30,15 +30,17 @@ public class UserControllerTest {
     public void setUp() {
 
         userController = new UserController();
-        TestUtils.injectObjects(userController, "userRepository", userController);
+        TestUtils.injectObjects(userController, "userRepository", userRepository);
         TestUtils.injectObjects(userController, "cartRepository", cartRepository);
         TestUtils.injectObjects(userController, "bCryptPasswordEncoder", bCryptPasswordEncoder);
-        User testUser = new User();
         Cart testCart = new Cart();
+        User testUser = new User();
+        testUser.setId(0);
         testUser.setUsername("testUser");
         testUser.setPassword("testPassword");
-        testUser.setId(0);
         testUser.setCart(testCart);
+
+        when(userRepository.findById(0L)).thenReturn(java.util.Optional.of(testUser));
 
 
 
@@ -62,7 +64,7 @@ public class UserControllerTest {
         assertNotNull(user);
         assertEquals(0, user.getId());
         assertEquals("test", user.getUsername());
-        assertEquals("testPassword", user.getPassword());
+        assertEquals("thisIsHashed", user.getPassword());
 
     }
 
