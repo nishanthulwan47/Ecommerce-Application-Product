@@ -30,7 +30,7 @@ public class ItemController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Item> getItemById(@PathVariable Long id) {
-        log.info("Get item by it's particular id", id);
+        log.info("Get item by it's id", id);
         return ResponseEntity.of(itemRepository.findById(id));
     }
 
