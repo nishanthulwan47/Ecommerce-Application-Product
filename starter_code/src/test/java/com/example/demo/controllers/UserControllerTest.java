@@ -11,6 +11,8 @@ import org.junit.Test;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+import java.util.Optional;
+
 import static junit.framework.TestCase.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.mockito.Mockito.mock;
@@ -39,16 +41,12 @@ public class UserControllerTest {
         testUser.setUsername("testUser");
         testUser.setPassword("testPassword");
         testUser.setCart(testCart);
-
         when(userRepository.findById(0L)).thenReturn(java.util.Optional.of(testUser));
-
-
-
-
     }
 
     @Test
     public void createUser() throws Exception {
+
         when(bCryptPasswordEncoder.encode("testPassword")).thenReturn("thisIsHashed");
         CreateUserRequest createUserRequest = new CreateUserRequest();
         createUserRequest.setUsername("test");
@@ -57,7 +55,7 @@ public class UserControllerTest {
 
         final ResponseEntity<User> responseEntity = userController.createUser(createUserRequest);
 
-        assertNotNull(responseEntity);
+        assertNotNull(responseEntity.getStatusCode());
         assertEquals(201, responseEntity.getStatusCodeValue());
 
         User user = responseEntity.getBody();
@@ -68,6 +66,26 @@ public class UserControllerTest {
 
     }
 
+    @Test
+    public void loginUser() {
 
+        CreateUserRequest createUserRequest = new CreateUserRequest();
+        createUserRequest.setUsername("test");
+        createUserRequest.setPassword("testPassword");
+        createUserRequest.setConfirmPassword("testPassword");
+        final ResponseEntity<User> responseEntity = userController.findByUserName("test");
+
+        assertEquals(404, responseEntity.getStatusCodeValue());
+        final ResponseEntity<User> userResponseEntity = userController.createUser(createUserRequest);
+        assertEquals(201, userResponseEntity.getStatusCodeValue());
+        assertEquals("test",userResponseEntity.getBody().getUsername());
+    }
+
+    @Test
+    public void findUserById() {
+        Optional<User> optionalUser = userRepository.findById(0L);
+        assertNotNull(optionalUser);
+        assertEquals(0L,optionalUser.get().getId());
+    }
 
 }

@@ -48,10 +48,10 @@ public class UserController {
         user.setCart(cart);
         String password = bCryptPasswordEncoder.encode(createUserRequest.getPassword());
         if (createUserRequest.getPassword().length() < 7 ||
-                !createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword()) ||
-                !bCryptPasswordEncoder.matches(createUserRequest.getConfirmPassword(), password)) {
+                !createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())) {
             return ResponseEntity.badRequest().build();
         }
+        user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
         user.setPassword(password);
         userRepository.save(user);
         return new ResponseEntity<>(user, HttpStatus.CREATED);
