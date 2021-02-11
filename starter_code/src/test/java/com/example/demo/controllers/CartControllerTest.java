@@ -10,6 +10,7 @@ import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.ModifyCartRequest;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 import java.math.BigDecimal;
@@ -71,5 +72,31 @@ public class CartControllerTest {
         Optional<Item> itemOptional = itemRepository.findById(0L);
         BigDecimal bigDecimalTotal = itemOptional.get().getPrice().multiply(BigDecimal.valueOf(2));
         assertEquals(bigDecimalTotal, cart.getTotal());
+    }
+
+    @Test
+    public void deleteFromCart() {
+        ModifyCartRequest modifyCartRequest = new ModifyCartRequest();
+        modifyCartRequest.setUsername("testUser");
+        modifyCartRequest.setItemId(0L);
+        modifyCartRequest.setQuantity(2);
+        ResponseEntity<Cart> cartResponseEntity = cartController.addTocart(modifyCartRequest);
+        assertNotNull(cartResponseEntity);
+        assertEquals(200, cartResponseEntity.getStatusCodeValue());
+        Cart cart = cartResponseEntity.getBody();
+        assertNotNull(cart);
+        ResponseEntity<Cart> cartResponseEntity1 = cartController.removeFromcart(modifyCartRequest);
+        assertEquals(cartResponseEntity1.getStatusCodeValue(), HttpStatus.OK.value());
+        assertEquals(cart.getItems().size(), 0);
+    }
+
+    @Test
+    public void showItemsInCart() {
+        ResponseEntity<Cart> cartResponseEntity = cartController.showItemsInCart("unknown");
+        assertNotNull(cartResponseEntity);
+        assertEquals(404, cartResponseEntity.getStatusCodeValue());
+        cartResponseEntity = cartController.showItemsInCart("testUser");
+        assertNotNull(cartResponseEntity);
+        assertEquals(200, cartResponseEntity.getStatusCodeValue());
     }
 }
