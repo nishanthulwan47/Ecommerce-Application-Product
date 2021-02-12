@@ -180,3 +180,96 @@ Initializing ExecutorService 'applicationTaskExecutor'
 Starting ProtocolHandler ["http-nio-8080"]
 Tomcat started on port(s): 8080 (http) with context path ''
 Started SareetaApplication in 3.891 seconds (JVM running for 4.326)
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SareetaApplication on Nishants-MBP.fios-router.home with PID 2527 (started by nishanthulwan in /Users/nishanthulwan/Desktop/Ecommerce Application Product)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 60ms. Found 4 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$948d2072] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.19]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1568 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69a3bf40, org.springframework.security.web.context.SecurityContextPersistenceFilter@33827b88, org.springframework.security.web.header.HeaderWriterFilter@18f27a81, org.springframework.web.filter.CorsFilter@2c731a16, org.springframework.security.web.authentication.logout.LogoutFilter@1b800a11, com.example.demo.security.JWTAuthenticationFilter@2a341e3d, com.example.demo.security.JWTAuthenticationVerificationFilter@a4dcede, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7112b21a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34cfdd84, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ee02968, org.springframework.security.web.session.SessionManagementFilter@654c2f81, org.springframework.security.web.access.ExceptionTranslationFilter@538a90a5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b9beefe]
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started SareetaApplication in 3.821 seconds (JVM running for 4.324)
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SareetaApplication on Nishants-MBP.fios-router.home with PID 4950 (started by nishanthulwan in /Users/nishanthulwan/Desktop/Ecommerce Application Product)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 61ms. Found 4 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54171637] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.19]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1672 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36f40d72, org.springframework.security.web.context.SecurityContextPersistenceFilter@8e3449e, org.springframework.security.web.header.HeaderWriterFilter@7591cbd1, org.springframework.web.filter.CorsFilter@2c557eee, org.springframework.security.web.authentication.logout.LogoutFilter@796cf2b5, com.example.demo.security.JWTAuthenticationFilter@7c47b0f8, com.example.demo.security.JWTAuthenticationVerificationFilter@2b561f51, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f3aa970, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@cda144a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d5f08d4, org.springframework.security.web.session.SessionManagementFilter@2a30b0cb, org.springframework.security.web.access.ExceptionTranslationFilter@58b5d5fc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fad8636]
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started SareetaApplication in 4.294 seconds (JVM running for 4.895)
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SareetaApplication on Nishants-MBP.fios-router.home with PID 6495 (started by nishanthulwan in /Users/nishanthulwan/Desktop/Ecommerce Application Product)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 46ms. Found 4 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f7ea45fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.19]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1360 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.10.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@306cfb8a, org.springframework.security.web.context.SecurityContextPersistenceFilter@c7269ad, org.springframework.security.web.header.HeaderWriterFilter@65da1cbe, org.springframework.web.filter.CorsFilter@3fa57aa8, org.springframework.security.web.authentication.logout.LogoutFilter@46fdfaeb, com.example.demo.security.JWTAuthenticationFilter@7d4bdbd8, com.example.demo.security.JWTAuthenticationVerificationFilter@2e847e71, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38445703, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73d7d676, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79636080, org.springframework.security.web.session.SessionManagementFilter@1d67348a, org.springframework.security.web.access.ExceptionTranslationFilter@3a17acd4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e20c20b]
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started SareetaApplication in 3.825 seconds (JVM running for 4.336)

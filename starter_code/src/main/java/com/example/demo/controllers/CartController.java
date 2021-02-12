@@ -94,7 +94,7 @@ public class CartController {
         User user = userRepository.findByUsername(username);
 
         if (user == null) {
-            log.error("user not found", username);
+            log.warn("user not found", username);
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
         Cart cart = new Cart();

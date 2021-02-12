@@ -54,7 +54,7 @@ public class OrderController {
         log.info("Order history of users", username);
         User user = userRepository.findByUsername(username);
         if (user == null) {
-            log.error("User not found", username);
+            log.warn("User not found", username);
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(orderRepository.findByUser(user));
