@@ -41,6 +41,7 @@ public class UserController {
 
     @PostMapping("/create")
     public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) {
+        log.info("creating new user", createUserRequest.getUsername());
         User user = new User();
         user.setUsername(createUserRequest.getUsername());
         Cart cart = new Cart();
@@ -49,6 +50,7 @@ public class UserController {
         String password = bCryptPasswordEncoder.encode(createUserRequest.getPassword());
         if (createUserRequest.getPassword().length() < 7 ||
                 !createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())) {
+            log.warn("Password requirements don't match", createUserRequest.getUsername());
             return ResponseEntity.badRequest().build();
         }
         user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
