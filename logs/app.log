@@ -57,3 +57,10 @@ insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23502
 insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23502-199]
 2021-02-15 16:38:33,860 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-4] NULL not allowed for column "USERNAME"; SQL statement:
 insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23502-199]
+2021-02-15 18:22:48,310 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Nishants-MBP.fios-router.home with PID 26718 (started by nishanthulwan in /Users/nishanthulwan/Desktop/Ecommerce Application Product)
+2021-02-15 18:22:48,317 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-02-15 18:22:48,318 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2021-02-15 18:22:51,599 DEBUG c.e.d.s.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2021-02-15 18:22:52,163 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 4.207 seconds (JVM running for 5.315)
+2021-02-15 18:23:00,354 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-2] NULL not allowed for column "USERNAME"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23502-199]
