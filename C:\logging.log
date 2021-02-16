@@ -7386,3 +7386,83 @@ insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23502
 2021-02-16 08:44:00 INFO  CartController:27 - Trying to load username:
 2021-02-16 08:44:00 INFO  HikariDataSource:110 - HikariPool-2 - Starting...
 2021-02-16 08:44:00 INFO  HikariDataSource:123 - HikariPool-2 - Start completed.
+2021-02-16 10:57:47 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-16 10:57:47 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 48ms. Found 4 repository interfaces.
+2021-02-16 10:57:48 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-16 10:57:48 INFO  StandardService:173 - Starting service [Tomcat]
+2021-02-16 10:57:48 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-16 10:57:48 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-02-16 10:57:48 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2021-02-16 10:57:48 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-02-16 10:57:50 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-16 10:57:53 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-16 10:57:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 10:57:54 ERROR CartController:31 - User not found
+2021-02-16 10:58:08 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-02-16 10:58:08 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-02-16 11:49:14 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-16 11:49:14 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 52ms. Found 4 repository interfaces.
+2021-02-16 11:49:15 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-16 11:49:15 INFO  StandardService:173 - Starting service [Tomcat]
+2021-02-16 11:49:15 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-16 11:49:15 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-02-16 11:49:15 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2021-02-16 11:49:15 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-02-16 11:49:17 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-16 11:50:04 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-16 11:50:04 INFO  UserController:46 - creating new user
+2021-02-16 11:50:31 INFO  CartController:27 - Trying to load username:
+2021-02-16 11:53:24 INFO  CartController:50 - item has been added to cart
+2021-02-16 12:02:34 INFO  UserController:46 - creating new user
+2021-02-16 12:02:34 WARN  UserController:55 - Password requirements don't match
+2021-02-16 12:04:07 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-02-16 12:04:07 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-02-16 12:04:12 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-16 12:04:12 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 52ms. Found 4 repository interfaces.
+2021-02-16 12:04:13 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-16 12:04:13 INFO  StandardService:173 - Starting service [Tomcat]
+2021-02-16 12:04:13 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-16 12:04:13 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-02-16 12:04:13 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2021-02-16 12:04:13 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-02-16 12:04:15 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-16 12:04:16 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-16 12:12:50 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-02-16 12:12:50 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-02-16 12:12:55 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-16 12:12:55 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 42ms. Found 4 repository interfaces.
+2021-02-16 12:12:56 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-16 12:12:56 INFO  StandardService:173 - Starting service [Tomcat]
+2021-02-16 12:12:56 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-16 12:12:56 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-02-16 12:12:56 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2021-02-16 12:12:56 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-02-16 12:12:58 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-16 12:13:34 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-16 12:13:34 INFO  UserController:46 - creating new user
+2021-02-16 12:14:20 INFO  CartController:27 - Trying to load username:
+2021-02-16 12:16:33 INFO  CartController:50 - item has been added to cart
+2021-02-16 12:19:58 INFO  OrderController:32 - submit the orders
+2021-02-16 12:19:58 INFO  OrderController:48 - Order has been placed
+2021-02-16 12:21:28 INFO  OrderController:54 - Order history of users
+2021-02-16 15:41:48 WARN  HikariPool:766 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h51m51s156ms).
+2021-02-16 15:42:18 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-02-16 15:42:18 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-02-16 15:42:23 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-16 15:42:23 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 58ms. Found 4 repository interfaces.
+2021-02-16 15:42:24 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-16 15:42:24 INFO  StandardService:173 - Starting service [Tomcat]
+2021-02-16 15:42:24 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-16 15:42:24 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-02-16 15:42:24 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2021-02-16 15:42:24 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-02-16 15:42:26 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-16 15:43:07 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-16 15:43:07 INFO  UserController:46 - creating new user
+2021-02-16 15:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 15:43:49 ERROR CartController:31 - User not found
+2021-02-16 15:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 15:45:29 INFO  CartController:50 - item has been added to cart
+2021-02-16 15:46:37 INFO  OrderController:32 - submit the orders
+2021-02-16 15:46:37 INFO  OrderController:48 - Order has been placed
+2021-02-16 15:47:29 INFO  OrderController:54 - Order history of users

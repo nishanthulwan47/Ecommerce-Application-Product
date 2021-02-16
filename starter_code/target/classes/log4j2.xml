@@ -38,6 +38,14 @@
 
         </Logger>
 
+        <Logger name="org.springframework.boot" level="info" additivity="false">
+
+            <AppenderRef ref="LogToFile" />
+
+            <AppenderRef ref="LogToConsole" />
+
+        </Logger>
+
         <Root level="error">
 
             <AppenderRef ref="LogToFile"/>
@@ -45,6 +53,8 @@
             <AppenderRef ref="LogToConsole"/>
 
         </Root>
+
+
 
     </Loggers>
 
