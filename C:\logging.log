@@ -6905,3 +6905,484 @@ insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23502
 2021-02-15 21:41:48 INFO  CartController:27 - Trying to load username:
 2021-02-15 21:41:48 INFO  HikariDataSource:110 - HikariPool-2 - Starting...
 2021-02-15 21:41:48 INFO  HikariDataSource:123 - HikariPool-2 - Start completed.
+2021-02-16 08:42:06 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-16 08:42:06 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 47ms. Found 4 repository interfaces.
+2021-02-16 08:42:06 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-16 08:42:06 INFO  StandardService:173 - Starting service [Tomcat]
+2021-02-16 08:42:06 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-02-16 08:42:06 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-02-16 08:42:07 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2021-02-16 08:42:07 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-02-16 08:42:09 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-02-16 08:42:52 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-16 08:42:52 INFO  UserController:46 - creating new user
+2021-02-16 08:43:27 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:44 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:44 ERROR CartController:31 - User not found
+2021-02-16 08:43:44 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:44 ERROR CartController:31 - User not found
+2021-02-16 08:43:44 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:44 ERROR CartController:31 - User not found
+2021-02-16 08:43:44 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:44 ERROR CartController:31 - User not found
+2021-02-16 08:43:44 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:44 ERROR CartController:31 - User not found
+2021-02-16 08:43:44 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:44 ERROR CartController:31 - User not found
+2021-02-16 08:43:44 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:44 ERROR CartController:31 - User not found
+2021-02-16 08:43:44 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:44 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:45 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:45 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:46 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:46 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:47 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:47 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:48 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:48 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:49 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:49 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:50 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:50 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:51 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:51 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:52 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:52 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:53 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:53 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:54 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:54 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:55 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:55 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:56 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:56 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:57 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:57 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:58 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:58 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:43:59 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:43:59 ERROR CartController:31 - User not found
+2021-02-16 08:44:00 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:44:00 ERROR CartController:31 - User not found
+2021-02-16 08:44:00 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:44:00 ERROR CartController:31 - User not found
+2021-02-16 08:44:00 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:44:00 ERROR CartController:31 - User not found
+2021-02-16 08:44:00 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:44:00 ERROR CartController:31 - User not found
+2021-02-16 08:44:00 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:44:00 ERROR CartController:31 - User not found
+2021-02-16 08:44:00 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:44:00 ERROR CartController:31 - User not found
+2021-02-16 08:44:00 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:44:00 ERROR CartController:31 - User not found
+2021-02-16 08:44:00 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:44:00 ERROR CartController:31 - User not found
+2021-02-16 08:44:00 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:44:00 ERROR CartController:31 - User not found
+2021-02-16 08:44:00 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-02-16 08:44:00 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-02-16 08:44:00 INFO  CartController:27 - Trying to load username:
+2021-02-16 08:44:00 INFO  HikariDataSource:110 - HikariPool-2 - Starting...
+2021-02-16 08:44:00 INFO  HikariDataSource:123 - HikariPool-2 - Start completed.
