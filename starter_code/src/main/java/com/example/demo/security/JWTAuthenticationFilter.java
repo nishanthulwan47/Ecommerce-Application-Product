@@ -62,8 +62,9 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
                                               AuthenticationException failed) throws IOException, ServletException {
         logger.error("Failed authentication while attempting to access "
                 + urlPathHelper.getPathWithinApplication((HttpServletRequest) request));
-
+        response.setStatus(401);
         super.unsuccessfulAuthentication(request,response,failed);
+
     }
 
 
